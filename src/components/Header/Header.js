@@ -63,7 +63,14 @@ const HeaderLink  = styled.div`
 `
 
 const HeaderLogo = styled.img`
+    padding: 10px;
     height: 40px;
+
+    @media(max-width: 720px) {
+        padding: 8px;
+        height: 30px;
+    }
+
 `
 
 const WaveBottom = styled.div`
