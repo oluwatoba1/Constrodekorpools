@@ -27,7 +27,6 @@ const HeaderLink  = styled.div`
     display: flex;
     width: 100%;
     justify-content: center;
-    padding: 10px;
 
     a {
         text-decoration: none;
