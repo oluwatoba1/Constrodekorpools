@@ -14,7 +14,7 @@ const HeaderBackground = styled.div`
     background-position: center;
     height: 720px;
 
-    @media (max-width: 640px) {
+    @media (max-width: 720px) {
         height: 500px;
     }
 
@@ -47,7 +47,7 @@ const HeaderLink  = styled.div`
         border-radius: 0 0 8px 8px;
     }
 
-    @media (max-width: 640px) {
+    @media (max-width: 720px) {
         a {
             padding: 8px;
             margin: 0 20px;
