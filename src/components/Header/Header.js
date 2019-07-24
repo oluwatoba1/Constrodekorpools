@@ -48,7 +48,6 @@ const HeaderLink  = styled.div`
 
     @media (max-width: 720px) {
         a {
-            padding: 8px;
             margin: 0 10px;
             font-size: 14px;
         }
@@ -67,7 +66,6 @@ const HeaderLogo = styled.img`
     height: 40px;
 
     @media(max-width: 720px) {
-        padding: 8px;
         height: 30px;
     }
 
