@@ -15,7 +15,7 @@ const HeaderBackground = styled.div`
     height: 720px;
 
     @media (max-width: 720px) {
-        height: 600px;
+        height: 640px;
     }
 
 `
