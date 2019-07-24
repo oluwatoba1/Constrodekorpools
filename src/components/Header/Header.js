@@ -50,7 +50,7 @@ const HeaderLink  = styled.div`
     @media (max-width: 720px) {
         a {
             padding: 8px;
-            margin: 0 20px;
+            margin: 0 10px;
             font-size: 14px;
         }
 
