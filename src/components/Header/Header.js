@@ -25,6 +25,7 @@ const HeaderLink  = styled.div`
     top: 0; 
     left: 0;
     display: flex;
+    width: 100%;
     justify-content: center;
     padding: 10px;
 
@@ -50,7 +51,7 @@ const HeaderLink  = styled.div`
         a {
             padding: 8px;
             margin: 0 20px;
-            font-size: 18px;
+            font-size: 12px;
         }
 
         a:hover {
