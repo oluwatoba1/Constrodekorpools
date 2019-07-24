@@ -1,0 +1,19 @@
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(104deg, #0d66da 0%, #062f64 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+
+@media (max-width: 720px) {
+    h2 {
+        font-size: 40px;
+    }
+}
