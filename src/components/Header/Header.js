@@ -15,7 +15,7 @@ const HeaderBackground = styled.div`
     height: 720px;
 
     @media (max-width: 720px) {
-        height: 500px;
+        height: 600px;
     }
 
 `
@@ -51,7 +51,7 @@ const HeaderLink  = styled.div`
         a {
             padding: 8px;
             margin: 0 20px;
-            font-size: 12px;
+            font-size: 14px;
         }
 
         a:hover {
