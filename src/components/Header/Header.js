@@ -43,7 +43,7 @@ const HeaderLink  = styled.div`
         text-transform: capitalize;
         color: #fff;
         margin: 0 30px;
-        padding: 10px;
+        padding: 8px;
         align-self: center;
         font-size: 24px;
         font-weight: 600;
@@ -59,7 +59,7 @@ const HeaderLink  = styled.div`
     @media (max-width: 720px) {
         a {
             margin: 0 5px;
-            font-size: 10px;
+            font-size: 12px;
         }
 
         a:hover {
