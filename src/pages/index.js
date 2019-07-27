@@ -34,7 +34,7 @@ const WhatWeDoText = styled.p`
   text-transform: capitalize;
   font-size: 28px;
   padding: 10px;
-  justify-items: center;
+  text-align: center;
   font-family: 'Abel', sans-serif;
 
   @media (max-width: 720px) {
