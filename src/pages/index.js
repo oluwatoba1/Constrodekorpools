@@ -79,6 +79,11 @@ const WhatWeDoCellTitle = styled.h3`
 
 font-family: 'Abel', sans-serif;
 font-size: 24px;
+
+@media(max-width: 720px) {
+  font-size: 18px;
+}
+
 `
 
 const WhatWeDoCellBody = styled.p`
@@ -87,6 +92,11 @@ const WhatWeDoCellBody = styled.p`
   font-family: 'Abel', sans-serif;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.4);
+
+  @media(max-width: 720px) {
+  font-size: 14px;
+  }
+
 `
 
 const IndexPage = () => (

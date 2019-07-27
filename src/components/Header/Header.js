@@ -59,7 +59,7 @@ const HeaderLink  = styled.div`
     @media (max-width: 720px) {
         a {
             margin: 0 5px;
-            font-size: 14px;
+            font-size: 10px;
         }
 
         a:hover {
