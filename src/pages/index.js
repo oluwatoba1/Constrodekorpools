@@ -38,7 +38,7 @@ const WhatWeDoText = styled.p`
   font-family: 'Abel', sans-serif;
 
   @media (max-width: 720px) {
-    width: 300px;
+    width: 250px;
     font-size: 20px;
   }
 
