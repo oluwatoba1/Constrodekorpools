@@ -34,11 +34,12 @@ const WhatWeDoText = styled.p`
   text-transform: capitalize;
   font-size: 28px;
   padding: 10px;
-  justify-content: center;
+  justify-items: center;
   font-family: 'Abel', sans-serif;
 
   @media (max-width: 720px) {
-    font-size: 22px;
+    width: 300px;
+    font-size: 20px;
   }
 
 `
