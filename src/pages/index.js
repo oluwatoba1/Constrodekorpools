@@ -7,11 +7,13 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 const WhatWeDo = styled.div`
+
   background: #fff;
   padding: 40px 20px;
 `
 const WhatWeDoTitle = styled.p`
-@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
   margin: 0;
   color: #062f64;
   text-transform: uppercase;
@@ -28,6 +30,7 @@ const WhatWeDoTitle = styled.p`
 
 const WhatWeDoText = styled.p`
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
   margin: 0 auto;
   color: #000;
   width: 350px;
@@ -46,28 +49,28 @@ const WhatWeDoText = styled.p`
 
 const WhatWeDoCellGroup = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 250px);
+  grid-template-columns: repeat(4, 25%);
   justify-content: center;
 
   @media (max-width: 720px) {
-    grid-template-columns: repeat(2, 170px);
+    grid-template-columns: repeat(2, 40%);
   }
 `
 
 const WhatWeDoCell = styled.div`
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
   position: relative;
   padding: 20px;
   border: 1px solid rgba(0, 0, 0, 0.1);
 
   span {
-    font-family: 'Abel', sans-serif;
     position: absolute;
     top: 10px;
     right: 10px;
     color: rgba(0, 0, 0, 0.4);
+    font-family: 'Abel', sans-serif; 
   }
 
 `
@@ -77,9 +80,10 @@ const WhatWeDoCellIcon = styled.span`
 `
 
 const WhatWeDoCellTitle = styled.h3`
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
-font-family: 'Abel', sans-serif;
 font-size: 24px;
+font-family: 'Abel', sans-serif;
 
 @media(max-width: 720px) {
   font-size: 18px;
@@ -88,14 +92,14 @@ font-size: 24px;
 `
 
 const WhatWeDoCellBody = styled.p`
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
-
-  font-family: 'Abel', sans-serif;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.4);
 
   @media(max-width: 720px) {
   font-size: 14px;
+  font-family: 'Abel', sans-serif;
   }
 
 `
