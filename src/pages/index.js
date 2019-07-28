@@ -12,8 +12,6 @@ const WhatWeDo = styled.div`
   padding: 40px 20px;
 `
 const WhatWeDoTitle = styled.p`
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
-
   margin: 0;
   color: #062f64;
   text-transform: uppercase;
@@ -29,8 +27,6 @@ const WhatWeDoTitle = styled.p`
 `
 
 const WhatWeDoText = styled.p`
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
-
   margin: 0 auto;
   color: #000;
   width: 350px;
@@ -59,7 +55,6 @@ const WhatWeDoCellGroup = styled.div`
 
 const WhatWeDoCell = styled.div`
 
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
   position: relative;
   padding: 20px;
@@ -70,7 +65,6 @@ const WhatWeDoCell = styled.div`
     top: 10px;
     right: 10px;
     color: rgba(0, 0, 0, 0.4);
-    font-family: 'Abel', sans-serif; 
   }
 
 `
@@ -80,10 +74,8 @@ const WhatWeDoCellIcon = styled.span`
 `
 
 const WhatWeDoCellTitle = styled.h3`
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
 font-size: 24px;
-font-family: 'Abel', sans-serif;
 
 @media(max-width: 720px) {
   font-size: 18px;
@@ -92,14 +84,12 @@ font-family: 'Abel', sans-serif;
 `
 
 const WhatWeDoCellBody = styled.p`
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
   font-size: 20px;
   color: rgba(0, 0, 0, 0.4);
 
   @media(max-width: 720px) {
   font-size: 14px;
-  font-family: 'Abel', sans-serif;
   }
 
 `
