@@ -107,6 +107,11 @@ const WhyUs = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 15px;
+
+  @media (max-width: 720px) {
+    padding: 30px 20px;
+}
+
 `
 
 const WhyUsImage = styled.img`
@@ -120,7 +125,7 @@ transition: 0.8s cubic-bezier(0.35, 0.4, 0.35, 1);
 }
 
 @media (max-width: 720px) {
-  height: 120px;
+  height: 110px;
 }
 
 `
