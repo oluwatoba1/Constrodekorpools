@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import constrodekorpools from '../images/constrodekorpools.jpg';
 
 const WhatWeDo = styled.div`
 
@@ -94,6 +95,43 @@ const WhatWeDoCellBody = styled.p`
 
 `
 
+const WhyUs = styled.div`
+  position: relative;
+  background-color: #165b7a;
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+`
+
+const WhyUsImage = styled.img`
+
+height: 120px;
+margin-top: -50px;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+transform: scale(1.1);
+
+`
+const WhyUsGroup = styled.div`
+
+  display: grid;
+  grid-template-rows: 30px auto;
+  grid-gap: 20px;
+
+`
+
+const WhyUsTitle = styled.h3`
+
+  font-size: 24px;
+
+`
+
+const WhyUsBody = styled.p`
+
+  font-size: 18px;
+
+`
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -127,6 +165,13 @@ const IndexPage = () => (
         </WhatWeDoCell>
       </WhatWeDoCellGroup>
     </WhatWeDo>
+    <WhyUs>
+      <WhyUsImage src={constrodekorpools} />
+      <WhyUsGroup>
+        <WhyUsTitle>Why Us?</WhyUsTitle>
+        <WhyUsBody>Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</WhyUsBody>
+      </WhyUsGroup>
+    </WhyUs>
     {/* <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
