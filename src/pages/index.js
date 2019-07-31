@@ -102,8 +102,6 @@ const WhatWeDoCellBody = styled.p`
 `
 
 const WhyUs = styled.div`
-  position: relative;
-  width: 100%;
   background-color: #165b7a;
   padding: 40px 20px;
   display: grid;
