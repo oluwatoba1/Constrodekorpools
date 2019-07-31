@@ -111,12 +111,11 @@ const WhyUs = styled.div`
 
 const WhyUsImage = styled.img`
 
-height: 120px;
-margin-top: -50px;
+height: 160px;
 box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 
 @media (max-width: 720px) {
-  height: 60px;
+  height: 100px;
 }
 
 `
@@ -133,7 +132,7 @@ const WhyUsTitle = styled.h3`
   font-size: 24px;
 
   @media (max-width: 720px) {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 `
@@ -143,7 +142,7 @@ const WhyUsBody = styled.p`
   font-size: 18px;
 
   @media (max-width: 720px) {
-  font-size: 9px;
+  font-size: 12px;
 }
 
 `
