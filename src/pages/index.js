@@ -111,7 +111,7 @@ const WhyUs = styled.div`
 
 const WhyUsImage = styled.img`
 
-height: 180px;
+height: 200px;
 box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 transition: 0.8s cubic-bezier(0.35, 0.4, 0.35, 1);
 
@@ -120,7 +120,7 @@ transition: 0.8s cubic-bezier(0.35, 0.4, 0.35, 1);
 }
 
 @media (max-width: 720px) {
-  height: 140px;
+  height: 100px;
 }
 
 `
