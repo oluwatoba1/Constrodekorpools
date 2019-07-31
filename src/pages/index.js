@@ -10,7 +10,7 @@ import forklift from '../images/forklift.png';
 import desk from '../images/desk.png';
 import building from '../images/building.png';
 import electricitytower from '../images/electricitytower.png';
-import constrodekorpools from '../images/constrodekorpools.jpg';
+import constrodekorpools3 from '../images/constrodekorpools3.jpeg';
 
 const WhatWeDo = styled.div`
 
@@ -103,24 +103,30 @@ const WhatWeDoCellBody = styled.p`
 
 const WhyUs = styled.div`
   background-color: #165b7a;
-  padding: 40px 20px;
+  padding: 40px 30px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+  grid-gap: 15px;
 `
 
 const WhyUsImage = styled.img`
 
-height: 160px;
+height: 180px;
 box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+transition: 0.8s cubic-bezier(0.35, 0.4, 0.35, 1);
+
+&:hover {
+  transform: scale(1.1);
+}
 
 @media (max-width: 720px) {
-  height: 100px;
+  height: 140px;
 }
 
 `
 const WhyUsGroup = styled.div`
 
+  align-content: center;
   display: grid;
   grid-template-rows: 30px auto;
   grid-gap: 20px;
@@ -181,7 +187,7 @@ const IndexPage = () => (
       </WhatWeDoCellGroup>
     </WhatWeDo>
     <WhyUs>
-      <WhyUsImage src={constrodekorpools} />
+      <WhyUsImage src={constrodekorpools3} />
       <WhyUsGroup>
         <WhyUsTitle>Why Us?</WhyUsTitle>
         <WhyUsBody>Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</WhyUsBody>
