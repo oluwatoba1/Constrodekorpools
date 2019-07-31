@@ -132,11 +132,19 @@ const WhyUsTitle = styled.h3`
 
   font-size: 24px;
 
+  @media (max-width: 720px) {
+  font-size: 12px;
+}
+
 `
 
 const WhyUsBody = styled.p`
 
   font-size: 18px;
+
+  @media (max-width: 720px) {
+  font-size: 9px;
+}
 
 `
 
