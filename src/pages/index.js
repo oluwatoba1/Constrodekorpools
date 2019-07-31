@@ -131,6 +131,10 @@ const WhyUsGroup = styled.div`
   grid-template-rows: 30px auto;
   grid-gap: 20px;
 
+  @media (max-width: 720px) {
+    grid-gap: 5px;
+  }
+
 `
 
 const WhyUsTitle = styled.h3`
@@ -138,7 +142,7 @@ const WhyUsTitle = styled.h3`
   font-size: 24px;
 
   @media (max-width: 720px) {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 `
@@ -148,7 +152,7 @@ const WhyUsBody = styled.p`
   font-size: 18px;
 
   @media (max-width: 720px) {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 `
