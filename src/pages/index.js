@@ -103,6 +103,7 @@ const WhatWeDoCellBody = styled.p`
 
 const WhyUs = styled.div`
   position: relative;
+  width: 100%;
   background-color: #165b7a;
   padding: 40px 20px;
   display: grid;
@@ -115,7 +116,10 @@ const WhyUsImage = styled.img`
 height: 120px;
 margin-top: -50px;
 box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
-transform: scale(1.1);
+
+@media (max-width: 720px) {
+  height: 60px;
+}
 
 `
 const WhyUsGroup = styled.div`
