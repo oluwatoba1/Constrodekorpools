@@ -5,6 +5,11 @@ import styled from 'styled-components'
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+
+import forklift from '../images/forklift.png';
+import desk from '../images/desk.png';
+import building from '../images/building.png';
+import electricitytower from '../images/electricitytower.png';
 import constrodekorpools from '../images/constrodekorpools.jpg';
 
 const WhatWeDo = styled.div`
@@ -70,8 +75,9 @@ const WhatWeDoCell = styled.div`
 
 `
 
-const WhatWeDoCellIcon = styled.span`
-
+const WhatWeDoCellIcon = styled.img`
+  height: 60px;
+  width: 60px;
 `
 
 const WhatWeDoCellTitle = styled.h3`
@@ -141,25 +147,25 @@ const IndexPage = () => (
       <WhatWeDoCellGroup>
         <WhatWeDoCell>
           <span>01</span>
-          <WhatWeDoCellIcon />
+          <WhatWeDoCellIcon src={building}/>
           <WhatWeDoCellTitle>Professional team</WhatWeDoCellTitle>
           <WhatWeDoCellBody>Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</WhatWeDoCellBody>
         </WhatWeDoCell>
         <WhatWeDoCell>
           <span>02</span>
-          <WhatWeDoCellIcon />
+          <WhatWeDoCellIcon src={desk}/>
           <WhatWeDoCellTitle>Great ideas</WhatWeDoCellTitle>
           <WhatWeDoCellBody>Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</WhatWeDoCellBody>
         </WhatWeDoCell>
         <WhatWeDoCell>
           <span>03</span>
-          <WhatWeDoCellIcon />
+          <WhatWeDoCellIcon src={forklift}/>
           <WhatWeDoCellTitle>Quality building</WhatWeDoCellTitle>
           <WhatWeDoCellBody>Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</WhatWeDoCellBody>
         </WhatWeDoCell>
         <WhatWeDoCell>
           <span>04</span>
-          <WhatWeDoCellIcon />
+          <WhatWeDoCellIcon src={electricitytower}/>
           <WhatWeDoCellTitle>Quality works</WhatWeDoCellTitle>
           <WhatWeDoCellBody>Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</WhatWeDoCellBody>
         </WhatWeDoCell>
