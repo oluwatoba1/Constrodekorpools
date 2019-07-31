@@ -82,7 +82,7 @@ const WhatWeDoCellIcon = styled.img`
 
 const WhatWeDoCellTitle = styled.h3`
 
-font-size: 24px;
+font-size: 22px;
 
 @media(max-width: 720px) {
   font-size: 18px;
