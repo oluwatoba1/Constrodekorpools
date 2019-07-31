@@ -120,7 +120,7 @@ transition: 0.8s cubic-bezier(0.35, 0.4, 0.35, 1);
 }
 
 @media (max-width: 720px) {
-  height: 100px;
+  height: 120px;
 }
 
 `
