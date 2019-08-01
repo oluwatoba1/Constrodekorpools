@@ -10,7 +10,7 @@ import forklift from '../images/forklift.png';
 import desk from '../images/desk.png';
 import building from '../images/building.png';
 import electricitytower from '../images/electricitytower.png';
-import constrodekorpools3 from '../images/constrodekorpools3.jpeg';
+import constrodekorpools from '../images/constrodekorpools.jpg';
 
 const WhatWeDo = styled.div`
 
@@ -82,10 +82,10 @@ const WhatWeDoCellIcon = styled.img`
 
 const WhatWeDoCellTitle = styled.h3`
 
-font-size: 22px;
+font-size: 18px;
 
 @media(max-width: 720px) {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 `
@@ -103,10 +103,10 @@ const WhatWeDoCellBody = styled.p`
 
 const WhyUs = styled.div`
   background-color: #165b7a;
-  padding: 40px 30px;
+  padding: 40px 40px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 15px;
+  grid-template-rows: auto auto;
+  grid-row-gap: 15px;
 
   @media (max-width: 720px) {
     padding: 30px 20px;
@@ -116,28 +116,30 @@ const WhyUs = styled.div`
 
 const WhyUsImage = styled.img`
 
-height: 200px;
+height: 250px;
 box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 transition: 0.8s cubic-bezier(0.35, 0.4, 0.35, 1);
+justify-self: center;
 
 &:hover {
   transform: scale(1.1);
 }
 
 @media (max-width: 720px) {
-  height: 110px;
+  height: 250px;
 }
 
 `
 const WhyUsGroup = styled.div`
 
   align-content: center;
+  padding: 0 20px;
   display: grid;
   grid-template-rows: 30px auto;
   grid-gap: 20px;
 
   @media (max-width: 720px) {
-    grid-gap: 5px;
+    grid-gap: 10px;
   }
 
 `
@@ -145,9 +147,10 @@ const WhyUsGroup = styled.div`
 const WhyUsTitle = styled.h3`
 
   font-size: 24px;
+  text-align: center;
 
   @media (max-width: 720px) {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 `
@@ -155,9 +158,10 @@ const WhyUsTitle = styled.h3`
 const WhyUsBody = styled.p`
 
   font-size: 18px;
+  text-align: center;
 
   @media (max-width: 720px) {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 `
@@ -196,10 +200,10 @@ const IndexPage = () => (
       </WhatWeDoCellGroup>
     </WhatWeDo>
     <WhyUs>
-      <WhyUsImage src={constrodekorpools3} />
+      <WhyUsImage src={constrodekorpools} />
       <WhyUsGroup>
         <WhyUsTitle>Why Us?</WhyUsTitle>
-        <WhyUsBody>Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</WhyUsBody>
+        <WhyUsBody>Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie. Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React. Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.</WhyUsBody>
       </WhyUsGroup>
     </WhyUs>
     {/* <h1>Hi people</h1>
