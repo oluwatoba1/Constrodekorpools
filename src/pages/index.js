@@ -126,7 +126,8 @@ justify-self: center;
 }
 
 @media (max-width: 720px) {
-  height: 100px;
+  width: 600px;
+  height: 150px;
 }
 
 `
