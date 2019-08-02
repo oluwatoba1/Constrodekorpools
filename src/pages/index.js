@@ -104,7 +104,7 @@ const WhatWeDoCellBody = styled.p`
 const WhyUs = styled.div`
   position: relative;
   background-color: #165b7a;
-  padding: 40px 40px;
+  padding: 30px 30px;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-row-gap: 15px;
@@ -127,7 +127,7 @@ justify-self: center;
 }
 
 @media (max-width: 720px) {
-  height: 150px;
+  height: 100px;
 }
 
 `
