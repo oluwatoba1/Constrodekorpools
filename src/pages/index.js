@@ -106,7 +106,7 @@ const WhyUs = styled.div`
   background-color: #165b7a;
   padding: 30px 30px;
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: 300px 300px;
   grid-gap: 15px;
 
   @media (max-width: 720px) {
