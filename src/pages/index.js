@@ -122,7 +122,7 @@ transition: 0.8s cubic-bezier(0.35, 0.4, 0.35, 1);
 justify-self: center;
 
 @media (max-width: 720px) {
-  height: 120px;
+  height: 135px;
 }
 
 `
