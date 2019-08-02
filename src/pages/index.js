@@ -121,10 +121,6 @@ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 transition: 0.8s cubic-bezier(0.35, 0.4, 0.35, 1);
 justify-self: center;
 
-&:hover {
-  transform: scale(1.1);
-}
-
 @media (max-width: 720px) {
   height: 120px;
 }
