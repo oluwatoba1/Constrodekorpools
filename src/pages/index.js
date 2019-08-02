@@ -106,8 +106,8 @@ const WhyUs = styled.div`
   background-color: #165b7a;
   padding: 30px 30px;
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-row-gap: 15px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 15px;
 
   @media (max-width: 720px) {
     padding: 30px 20px;
@@ -127,7 +127,7 @@ justify-self: center;
 }
 
 @media (max-width: 720px) {
-  height: 100px;
+  height: 130px;
 }
 
 `
