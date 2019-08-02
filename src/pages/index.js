@@ -10,7 +10,7 @@ import forklift from '../images/forklift.png';
 import desk from '../images/desk.png';
 import building from '../images/building.png';
 import electricitytower from '../images/electricitytower.png';
-import constrodekorpools from '../images/constrodekorpools.jpg';
+import constrodekorpools1 from '../images/constrodekorpools1.jpg';
 
 const WhatWeDo = styled.div`
 
@@ -102,6 +102,7 @@ const WhatWeDoCellBody = styled.p`
 `
 
 const WhyUs = styled.div`
+  position: relative;
   background-color: #165b7a;
   padding: 30px 30px;
   display: grid;
@@ -200,7 +201,7 @@ const IndexPage = () => (
       </WhatWeDoCellGroup>
     </WhatWeDo>
     <WhyUs>
-      <WhyUsImage src={constrodekorpools} />
+      <WhyUsImage src={constrodekorpools1} />
       <WhyUsGroup>
         <WhyUsTitle>Why Us?</WhyUsTitle>
         <WhyUsBody>Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie. Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React. Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.</WhyUsBody>
