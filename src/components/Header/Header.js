@@ -117,9 +117,9 @@ class Header extends Component {
                 <HeaderLink scrolled={this.state.scrolled}>
                     <HeaderLogo src={this.props.logo} />
                     <Link to='/'>home</Link>
-                    <Link to='/projects'>our projects</Link>
+                    <Link to='/projects'>projects</Link>
                     <Link to='/about'>about us</Link>
-                    <Link to='/contact'>contact us</Link>
+                    <Link to='/contact'>contact</Link>
                 </HeaderLink>
                 <h2>ConstrodekorPools</h2>
                 <HeaderBackground image={this.props.image}>
