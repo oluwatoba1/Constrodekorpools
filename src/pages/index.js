@@ -122,7 +122,7 @@ transition: 0.8s cubic-bezier(0.35, 0.4, 0.35, 1);
 justify-self: center;
 
 @media (max-width: 720px) {
-  height: 140px;
+  height: 135px;
 }
 
 `
@@ -189,6 +189,8 @@ const QuoteGroup = styled.div`
 
   position: relative;
   padding: 35px 70px;
+  width: 100%;
+  height: 100%;
 
 `
 
@@ -211,7 +213,7 @@ const Quote = styled.div`
 
   @media (max-width: 720px) {
     height: 600px;
-    width: 400px;
+    width: 200px;
 
   h4 {
     font-size: 24px;
