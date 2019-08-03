@@ -349,7 +349,7 @@ const IndexPage = () => (
           <PhoneNumber placeholder="Phone number*" />
           <Email placeholder="Email*" />
           <Subject placeholder="Subject*" />
-          <Message rows="10" placeholder="Message*" />
+          <Message rows="7" placeholder="Message*" />
           <SubmitButton>Send Message</SubmitButton>
         </Form>
       </Quote>
