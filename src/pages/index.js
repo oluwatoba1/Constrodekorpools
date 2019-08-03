@@ -212,7 +212,7 @@ const Quote = styled.div`
     color: #fff;
     font-size: 28px;
     text-transform: capitalize;
-    margin: 0;
+    margin: 50px 0 0 0;
   }
 
   @media (max-width: 720px) {
@@ -222,6 +222,7 @@ const Quote = styled.div`
 
   h4 {
     font-size: 24px;
+    margin: 0;
   }
   
 }
