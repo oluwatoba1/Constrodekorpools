@@ -133,7 +133,6 @@ const WhyUsGroup = styled.div`
   display: grid;
   grid-template-rows: 30px auto;
 
-
 `
 
 const WhyUsTitle = styled.h3`
@@ -207,6 +206,7 @@ const Quote = styled.div`
   }
 
   @media (max-width: 720px) {
+    padding: 20px;
     height: 600px;
     width: 300px;
 
