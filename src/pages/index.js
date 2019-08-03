@@ -187,12 +187,14 @@ const WhyUsBody = styled.p`
 
 const QuoteGroup = styled.div`
 
+  position: relative;
   padding: 35px 70px;
 
 `
 
 const Quote = styled.div`
 
+  position: relative;
   background-color: #000;
   padding: 60px;
   height: 500px;
