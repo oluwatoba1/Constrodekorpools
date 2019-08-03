@@ -50,7 +50,7 @@ footer {
 .Footer p {
   text-align: center;
   margin: 0;
-  width: 200px;
+  width: 600px;
   color: #fff;
   font-size: 16px;
 }
@@ -64,5 +64,11 @@ footer {
 
 .Footer a:hover {
   color: #fff;
+}
+
+@media (max-width: 720px) {
+  .Footer p {
+    width: 400px;
+  }
 }
 
