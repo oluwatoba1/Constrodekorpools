@@ -212,9 +212,9 @@ const Quote = styled.div`
   }
 
   @media (max-width: 720px) {
-    padding: 20px;
+    padding: 15px;
     height: 550px;
-    width: 260px;
+    width: 240px;
 
   h4 {
     font-size: 24px;
