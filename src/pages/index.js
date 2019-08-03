@@ -51,16 +51,12 @@ const WhatWeDoText = styled.p`
 
 const WhatWeDoCellGroup = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 25%);
+  grid-template-columns: repeat(2, 40%);
   justify-content: center;
 
-  @media (max-width: 720px) {
-    grid-template-columns: repeat(2, 40%);
-  }
 `
 
 const WhatWeDoCell = styled.div`
-
 
   position: relative;
   padding: 20px;
@@ -85,7 +81,7 @@ const WhatWeDoCellTitle = styled.h3`
 font-size: 18px;
 
 @media(max-width: 720px) {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 `
@@ -218,7 +214,7 @@ const Quote = styled.div`
   @media (max-width: 720px) {
     padding: 20px;
     height: 550px;
-    width: 320px;
+    width: 260px;
 
   h4 {
     font-size: 24px;
