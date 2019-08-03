@@ -107,10 +107,12 @@ const WhyUs = styled.div`
   padding: 30px 30px;
   display: grid;
   grid-template-rows: auto auto;
+  grid-gap: 20px;
 
   @media (max-width: 720px) {
     padding: 30px 20px;
-}
+    grid-gap: 15px;
+  }
 
 `
 
@@ -132,6 +134,11 @@ const WhyUsGroup = styled.div`
   padding: 0 20px;
   display: grid;
   grid-template-rows: 30px auto;
+  grid-gap: 20px;
+
+  @media (max-width: 720px) {
+    grid-gap: 15px;
+}
 
 `
 
