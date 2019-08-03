@@ -107,7 +107,6 @@ const WhyUs = styled.div`
   padding: 30px 30px;
   display: grid;
   grid-template-rows: auto auto;
-  grid-gap: 20px;
 
   @media (max-width: 720px) {
     padding: 30px 20px;
@@ -184,6 +183,11 @@ const WhyUsBody = styled.p`
 const QuoteGroup = styled.div`
 
   position: relative;
+  padding: 35px 70px;
+
+  @media (max-width: 720px) {
+    padding: 15px;
+  }
 
 `
 
@@ -205,9 +209,9 @@ const Quote = styled.div`
   }
 
   @media (max-width: 720px) {
-    padding: 20px 15px;
-    height: 450px;
-    width: 350px;
+    padding: 20px;
+    height: 550px;
+    width: 320px;
 
   h4 {
     font-size: 24px;
@@ -349,7 +353,7 @@ const IndexPage = () => (
           <PhoneNumber placeholder="Phone number*" />
           <Email placeholder="Email*" />
           <Subject placeholder="Subject*" />
-          <Message rows="7" placeholder="Message*" />
+          <Message rows="10" placeholder="Message*" />
           <SubmitButton>Send Message</SubmitButton>
         </Form>
       </Quote>
