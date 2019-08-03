@@ -205,8 +205,8 @@ const Quote = styled.div`
   }
 
   @media (max-width: 720px) {
-    padding: 30px 15px;
-    height: 500px;
+    padding: 20px 15px;
+    height: 450px;
     width: 350px;
 
   h4 {
