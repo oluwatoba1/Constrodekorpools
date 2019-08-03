@@ -6,10 +6,10 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-import forklift from '../images/forklift.png';
-import desk from '../images/desk.png';
-import building from '../images/building.png';
-import electricitytower from '../images/electricitytower.png';
+import forklift from '../images/forklift.svg';
+import desk from '../images/desk.svg';
+import building from '../images/building.svg';
+import electricitytower from '../images/electricitytower.svg';
 import constrodekorpools3 from '../images/constrodekorpools3.jpeg';
 
 const WhatWeDo = styled.div`
