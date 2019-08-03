@@ -186,7 +186,7 @@ const QuoteGroup = styled.div`
   padding: 35px 70px;
 
   @media (max-width: 720px) {
-    padding: 15px 30px;
+    padding: 20px;
   }
 
 `
@@ -211,7 +211,7 @@ const Quote = styled.div`
   @media (max-width: 720px) {
     padding: 20px;
     height: 550px;
-    width: 300px;
+    width: 320px;
 
   h4 {
     font-size: 24px;
