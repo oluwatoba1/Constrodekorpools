@@ -132,11 +132,7 @@ const WhyUsGroup = styled.div`
   padding: 0 20px;
   display: grid;
   grid-template-rows: 30px auto;
-  grid-gap: 20px;
 
-  @media (max-width: 720px) {
-    grid-gap: 10px;
-  }
 
 `
 
