@@ -183,11 +183,6 @@ const WhyUsBody = styled.p`
 const QuoteGroup = styled.div`
 
   position: relative;
-  padding: 35px 70px;
-
-  @media (max-width: 720px) {
-    padding: 20px;
-  }
 
 `
 
@@ -209,9 +204,9 @@ const Quote = styled.div`
   }
 
   @media (max-width: 720px) {
-    padding: 20px;
+    padding: 30px 15px;
     height: 550px;
-    width: 320px;
+    width: 350px;
 
   h4 {
     font-size: 24px;
