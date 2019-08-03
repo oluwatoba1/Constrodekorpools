@@ -185,11 +185,14 @@ const QuoteGroup = styled.div`
   position: relative;
   padding: 35px 70px;
 
+  @media (max-width: 720px) {
+    padding: 20px 40px;
+  }
+
 `
 
 const Quote = styled.div`
 
-  position: relative;
   background-color: #000;
   padding: 60px;
   height: 500px;
