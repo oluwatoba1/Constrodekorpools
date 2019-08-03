@@ -106,7 +106,8 @@ const WhyUs = styled.div`
   background-color: #165b7a;
   padding: 30px 30px;
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  grid-gap: 20px;
 
   @media (max-width: 720px) {
     padding: 30px 20px;
@@ -205,7 +206,7 @@ const Quote = styled.div`
 
   @media (max-width: 720px) {
     padding: 30px 15px;
-    height: 550px;
+    height: 500px;
     width: 350px;
 
   h4 {
